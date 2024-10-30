@@ -1,14 +1,14 @@
-name = "coba" # todo
+name = "SG" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "coba.hajs.my.id"
+pattern = "sg.hajs.my.id"
 custom_domain = true
 [[routes]]
-pattern = "support.zoom.us.coba.hajs.my.id"
+pattern = "support.zoom.us.sg.hajs.my.id"
 custom_domain = true
 
 [vars]
